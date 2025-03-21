@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baumeister HR - Ihr Baupartner in Lohmar</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+            text-align: center;
+        }
+        nav a{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Baumeister HR</h1>
+        <p>Ihr zuverlässiger Partner für Bauarbeiten in Lohmar und Umgebung.</p>
+        <p><strong>Adresse:</strong> Alterrather Str. 1, 53797 Lohmar</p>
+        <p><strong>Telefon:</strong> +4917688778899</p>
+        <p><strong>E-Mail:</strong> tomashorpynychrehner@gmail.com</p>
+        <p><strong>Steuernummer:</strong> 123/455/1576</p>
+    </header>
+
+    <section>
+        <h2>Über Uns</h2>
+        <p>Geleitet von Tomas Horpynych-Rehner, bietet Baumeister HR hochwertige Bauleistungen in Lohmar an. Wir sind bekannt für unsere Pünktlichkeit und Qualität. Unser Motto: "Pünktlich und qualitativ."</p>
+    </section>
+
+    <section>
+        <h2>Unsere Leistungen</h2>
+        <ul>
+            <li>Bodenlegerarbeiten</li>
+            <li>Gebäudereinigung</li>
+            <li>Hausmeisterdienste</li>
+            <li>Bodenverlegung</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Kontaktieren Sie Uns</h2>
+        <p>Haben Sie Fragen oder wünschen Sie ein Angebot? Kontaktieren Sie uns über dieses Formular:</p>
+        <form action="mailto:tomashorpynychrehner@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Nachricht:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Absenden">
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </nav>
+        <p>&copy; 2023 Baumeister HR</p>
+    </footer>
+</body>
+</html>
